@@ -13,8 +13,7 @@
 // System.Console.WriteLine("Hello, " + (Convert.ToInt32(name) + 2));
 
 Console.Write("Введите число от 1 до 10: ");
-string numberString = Console.ReadLine();
-int number = Convert.ToInt32(numberString);
+int number = int.Parse(Console.ReadLine());
 int secretNum = 7;
 if (number > secretNum)
 {
